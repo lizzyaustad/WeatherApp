@@ -4,10 +4,9 @@ html {
   font-family: sans-serif;
 }
 #w {
-  font-size: 100px;
   text-align: center;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   background: linear-gradient(azure, lightgray);
   border-radius: 50%;
   position: absolute;
@@ -18,25 +17,41 @@ html {
   margin: auto;
   color: darkslategray;
   opacity: 0.9;
-  text-shadow: 0 0 0.2em #333;
   box-shadow: .2em .2em .2em #444;
+}
+
+#weather {
+  font-size: 90px;
+  text-shadow: 0 0 0.2em #333;
+  margin-top: 80px;
+}
+
+#low {
+  font-size: 30px;
+  margin-top: -90px;
+}
+
+#high {
+  font-size: 30px;
+  margin-bottom: -80px;
+  margin-top: 40px;
 }
 
 #location{
   font-size: 40px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 40px;
   color: white;
-  text-shadow: 0 0 0.2em #333;
+  text-shadow: 0 0 0.2em #000;
 }
 
 .choice {
-  background: linear-gradient(azure, lightgray);
+  
   width: 50px;
   height: 50px;
   border-radius: 50%;
   position: absolute;
-  bottom: 70px;
+  bottom: 30px;
   left: 0;
   right: 0;
   margin: auto;
@@ -53,14 +68,14 @@ html {
 
 #fahren {
   left: 100px;
+  background-color: azure;
 }
 #cels {
   right: 100px;
-  background-color: steelblue;
+  background-color: darkgray;
 }
 #description {
   text-align: center;
-  font-size: 20px;
-  margin-top: 10px;
+  font-size: 24px;
   color: white;
 }
